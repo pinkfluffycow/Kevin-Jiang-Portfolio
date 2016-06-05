@@ -1,0 +1,116 @@
+/*navbar*/
+.navbar.navbar-default {
+    z-index:99;
+    margin:0 auto;
+    border-radius: 0 !important;
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+}
+
+.affix + .container-fluid {
+    padding-top: 70px;
+}
+
+.description{
+    background-color:rgb(240,240,240);
+}
+
+/*carousel*/
+#projectCarousel{
+    margin:0 auto; 
+    width:100vh;
+    height:100vh;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+	margin: auto;
+}
+
+.carousel-inner > .item > .carousel-caption{
+    background-color:rgba(255,0,0,0.5); 
+    bottom:5%;
+}
+
+/*
+<img id="header_image" class="responsive-image" src="img/aboutme_header.jpg">
+
+#header_image {
+    max-width:100%; 
+    margin-top:50px; 
+    z-index:2;
+}
+*/
+
+/*about me*/
+.aboutme_header {
+    width:100%; 
+    clear:both; 
+    background: 50% 50% no-repeat;
+    padding:0 50px; 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover; 
+    position:relative;
+    background-color:red;
+}
+
+#aboutme_container{
+    padding: 160px 0px 140px;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center;
+}
+
+#aboutme_quote{
+    width:auto;
+    position: absolute;
+    background-color:rgba(255,255,255,0.75);
+    color: rgba(50,50,50,1);
+    font-family: 'Lora', serif;
+    font-size:125%;
+    padding:5px;
+}
+
+#aboutme_info{
+    background-color:rgb(240,240,240);
+    padding:0; 
+    margin:0 auto;
+    border-right: 1px solid black;
+    border-bottom: 0px;
+}
+
+@media only screen and (max-width: 768px) {
+    #aboutme_info{
+        border-right: 0px;
+        border-bottom: 1px solid black;
+    }
+}
+#aboutme_description{
+    max-width:100%;
+    background-color: rgb(240,240,240);
+}
+#aboutme{
+    color:#555353;
+    font-family: 'Lora', serif;
+    font-size:110%;
+}
+
+/*resume*/
+#resumeh4{
+    font-family: 'Merriweather', serif;
+    color:black;
+}
+
+#resumeh5{
+    font-family: 'Open Sans', sans-serif;
+    color:#2079c7;
+}
+
+#resumep{
+    font-family: 'Merriweather', serif;
+    color:#666666;
+}
